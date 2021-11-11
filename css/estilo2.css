@@ -1,0 +1,42 @@
+.quadros {border-bottom: solid 3px rgb(141,159,198);border-top: solid 3px rgb(141,159,198);padding-bottom: 30px;}
+.quadros a {margin: 0 auto;color: black;}
+.quadros a:hover {color: rgba(141,159,198);text-decoration: none;}
+.quadros  div {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	padding: 50px 0px;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background: rgba(141,159,198);
+	text-shadow: 1px 2px 2px #020;
+	color: white;
+}
+.img-thumbnail {width: 49%;}
+canvas#thecanvas {background: #fff;border: dashed 2px rgb(141,159,198);border-radius:7px;}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+.table tr td {text-align: center;}

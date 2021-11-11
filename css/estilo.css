@@ -1,0 +1,16 @@
+body {overflow-x: hidden;font-family: calibri;}
+.row {margin-top: 2%;}
+.col-lg-3 {background: red;}
+.col-lg-12 img {width: 28%;border-radius: 5px;}
+.centro {width: 88%;margin: 0 auto;}
+.centro tr td {width: 33%;text-align: center;}
+.trio img {width: 95%;border-radius: 5px;}
+.social {text-align: center;}
+.social i {font-size: 1.4em;margin: 10px 15px;}
+.social a {color: rgb(41,59,98);transition: 0.3s;}
+.social a:hover {color: rgb(30,150,30);transition: 0.3s;}
+.ponto {width: 32px;height: 32px;display: inline-block;background: rgb(41,59,98);border-radius: 6px;}
+.entre{background: rgb(141,159,198);border: none;border-radius: 5px 8px;padding: 20% 15%;font-weight: bold;color: #fff;cursor: pointer;transition: 0.4s;}
+.entre:hover {background: rgb(100,200,90);transition: 0.4s;}
+.cadastre {background: transparent;border: none;font-weight: bold;font-size: 1.2em;color: rgb(41,59,98);cursor: pointer;transition: 0.4s;}
+.cadastre:hover {color: rgb(100,200,90);transition: 0.4s;}
